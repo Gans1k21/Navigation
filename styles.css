@@ -1,0 +1,70 @@
+/* Стилі для горизонтальної панелі навігації */
+.horizontal-nav {
+  background: #333;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.horizontal-nav li {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.horizontal-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.horizontal-nav a:hover {
+  color: #000;
+}
+
+.green {
+  background: linear-gradient(to right, green, blue);
+}
+
+.blue {
+  background: linear-gradient(to right, blue, purple);
+}
+
+.purple {
+  background: linear-gradient(to right, purple, green);
+}
+
+/* Стилі для вертикальної панелі навігації */
+.vertical-nav {
+  background: #333;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-nav li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.vertical-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.vertical-nav a:hover {
+  color: #000;
+}
+
+/* Додайте стилі для іконок, такі як розмір та кольори, які вам потрібні */
+
